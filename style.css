@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background: url(/amsterdam.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+/* header css*/
+.header{
+    background-color: rgba(161, 161, 147, 0.621);
+    display: flex;
+    height: 110px;
+    width: 100%;
+    justify-content:space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.header .title h1{
+    color: rgb(151, 104, 11);
+}
+
+.header .title h1 span{
+    color: black;
+
+}
+.header .nav ul li{
+    list-style-type: none;
+}
+.header .nav ul li a{
+    text-decoration: none;
+    margin-right: 10px;
+    color:rgb(152, 113, 15);
+    font-size: 25px;
+}
+.header .nav ul li a:hover{
+    color:rgb(248, 235, 235);
+    cursor: pointer;
+
+}
+/* header bitis*/
+/* ana icerik baslangic css*/
+
+.main {
+    height: 50vh;
+    width: 100%;
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.main .info {
+
+height: 100%;
+max-width: 500px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+text-align: center;
+gap: 20px;
+
+}
+.main .info h1{
+    color: rgb(185, 114, 33);
+
+}
+.main .info p{
+    color: rgb(18, 17, 17);
+   line-height: 35px;
+   letter-spacing: 1px;
+}
+.main .info p b{
+    color: brown;
+    text-transform: capitalize;
+   /* text-transform: uppercase;*/
+}
+.main .info button{
+    border: none;
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main .info button:hover{
+    background-color: rgb(207, 18, 18);
+    
+}
+
+/* ana icerik bitis css*/
+/* table baslangic*/
+.table-container{
+    width: 80%;
+    margin: 20px auto;
+
+}
+.table-container table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 8px;
+    border: 1px solid gray;
+
+}
+th{
+    background-color: rgb(110, 106, 106);
+
+}
+
+
+/* table alani bitis*/
+
+/* form alani baslangic*/
+
+.form-container{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 100px;
+    background-color: rgb(110, 106, 101);
+
+}
+
+label{
+    font-weight: bold;
+
+}
+#ad,
+#email,
+textarea {
+
+    width: 99%;
+    padding: 10px;
+    border: 1px solid rgb(157, 18, 18);
+    border-radius: 5px;
+
+}
+.btn{
+    background-color: rgb(174, 122, 26);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgb(7, 40, 40);
+
+}
+
+/* form alani bitis*/
+
+/* footer alani baslangic*/
+.footer{
+    background-color: #33333395;
+    color: white;
+    height: 100px;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* footer alani bitis*/
+
+/*media sorgusu*/
+@media (max-width:800px){
+    .header .nav{
+        display: none;
+        
+    }
+}
